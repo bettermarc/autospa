@@ -1,0 +1,2519 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Car Wash Booking System\n"
+"POT-Creation-Date: 2015-12-02 11:52+0100\n"
+"PO-Revision-Date: 2016-05-02 11:48+0200\n"
+"Last-Translator: \n"
+"Language-Team: QuanticaLabs <quanticalabs@gmail.com>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.8.7\n"
+"X-Poedit-KeywordsList: __;_e;esc_html__;esc_html_e;esc_attr__;esc_attr_e\n"
+"X-Poedit-Basepath: .\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"Language: nb_NO\n"
+"X-Poedit-SearchPath-0: ..\n"
+
+#: ../class/CBS.Booking.class.php:27
+#: ../template/email/part/booking_detail.php:12
+msgid "Bookings»
+msgstr "Bestilling"
+
+#: ../class/CBS.Booking.class.php:28
+msgid "Edit Booking"
+msgstr "Endre reservasjon"
+
+#: ../class/CBS.Booking.class.php:30
+msgid "View Booking"
+msgstr "Vis reservasjon"
+
+#: ../class/CBS.Booking.class.php:31
+msgid "Search Bookings"
+msgstr "Søke Bestilling"
+
+#: ../class/CBS.Booking.class.php:32
+msgid "No Bookings Found"
+msgstr "Ingen bestillinger Funnet"
+
+#: ../class/CBS.Booking.class.php:33
+msgid "No Bookings Found in Trash"
+msgstr "Ingen bestillinger Funnet"
+
+#: ../class/CBS.Booking.class.php:35
+msgid "Car Wash Booking&nbsp;System"
+msgstr ""
+
+#: ../class/CBS.Booking.class.php:70 ../class/CBS.Location.class.php:86
+#: ../class/CBS.Service.class.php:64 ../class/CBS.Vehicle.class.php:89
+msgid "General"
+msgstr ""
+
+#: ../class/CBS.Booking.class.php:71 ../class/CBS.Package.class.php:64
+#: ../class/CBS.Package.class.php:121 ../class/CBS.Service.class.php:65
+#: ../class/CBS.Service.class.php:115
+#: ../template/admin/meta_box_package_service.php:35
+msgid "Details"
+msgstr ""
+
+#: ../class/CBS.Booking.class.php:72
+#: ../template/email/part/booking_client_address.php:61
+msgid "Client details"
+msgstr ""
+
+#: ../class/CBS.Booking.class.php:163
+msgid "All locations"
+msgstr ""
+
+#: ../class/CBS.Booking.class.php:179
+msgid "New & accepted"
+msgstr ""
+
+#: ../class/CBS.Booking.class.php:192
+msgid "All statuses"
+msgstr ""
+
+#: ../class/CBS.Booking.class.php:207
+msgid "Booking date:"
+msgstr ""
+
+#: ../class/CBS.Booking.class.php:355
+#: ../template/admin/meta_box_booking_detail.php:15
+#: ../template/admin/meta_box_booking_detail.php:16
+#: ../template/admin/meta_box_location_address.php:5
+#: ../template/email/part/booking_location_address.php:8
+msgid "Name"
+msgstr ""
+
+#: ../class/CBS.Booking.class.php:356 ../class/CBS.Location.class.php:47
+#: ../class/CBS.Package.class.php:216 ../class/CBS.Service.class.php:497
+#: ../template/admin/meta_box_booking_general.php:132
+#: ../template/admin/meta_box_package_detail.php:21
+#: ../template/admin/meta_box_service_detail.php:19
+msgid "Location"
+msgstr ""
+
+#: ../class/CBS.Booking.class.php:357
+#: ../template/admin/meta_box_booking_general.php:89
+#: ../template/admin/meta_box_booking_general.php:90
+#: ../template/email/part/booking_detail.php:16
+msgid "Status"
+msgstr ""
+
+#: ../class/CBS.Booking.class.php:358 ../class/CBS.Package.class.php:218
+#: ../class/CBS.Service.class.php:499
+#: ../template/admin/meta_box_booking_detail.php:27
+#: ../template/admin/meta_box_booking_general.php:34
+#: ../template/admin/meta_box_package_detail.php:57
+#: ../template/admin/meta_box_service_detail.php:39
+#: ../template/email/part/booking_detail.php:24
+msgid "Price"
+msgstr ""
+
+#: ../class/CBS.Booking.class.php:359 ../class/CBS.Package.class.php:219
+#: ../class/CBS.Service.class.php:500
+#: ../template/admin/meta_box_booking_detail.php:33
+#: ../template/admin/meta_box_booking_general.php:25
+#: ../template/admin/meta_box_package_detail.php:41
+#: ../template/admin/meta_box_service_detail.php:45
+#: ../template/email/part/booking_detail.php:20
+#: ../template/public/booking-summary.php:33
+msgid "Duration"
+msgstr ""
+
+#: ../class/CBS.Booking.class.php:360
+msgid "Booking Date"
+msgstr ""
+
+#: ../class/CBS.Booking.class.php:361
+msgid "Client"
+msgstr ""
+
+#: ../class/CBS.Booking.class.php:422
+msgid "min "
+msgstr ""
+
+#: ../class/CBS.Booking.class.php:461
+#, php-format
+msgid "Booking \"%s\" has changed its status to \"%s\""
+msgstr ""
+
+#: ../class/CBS.Booking.class.php:544
+msgid "Please select valid location."
+msgstr ""
+
+#: ../class/CBS.Booking.class.php:561
+msgid "Please select valid car type."
+msgstr ""
+
+#: ../class/CBS.Booking.class.php:578
+msgid "Please select at least one service."
+msgstr ""
+
+#: ../class/CBS.Booking.class.php:586
+msgid "Please select valid package."
+msgstr ""
+
+#: ../class/CBS.Booking.class.php:612
+msgid "Please select at least one package/service."
+msgstr ""
+
+#: ../class/CBS.Booking.class.php:631 ../class/CBS.Booking.class.php:637
+msgid "Please select valid date/time."
+msgstr ""
+
+#: ../class/CBS.Booking.class.php:646
+msgid "Please enter your First Name."
+msgstr ""
+
+#: ../class/CBS.Booking.class.php:648
+msgid "Please enter your Second Name."
+msgstr ""
+
+#: ../class/CBS.Booking.class.php:650
+msgid "Please enter your Vehicle Make and Model."
+msgstr ""
+
+#: ../class/CBS.Booking.class.php:652
+msgid "Please enter valid E-mail."
+msgstr ""
+
+#: ../class/CBS.Booking.class.php:654
+msgid "Please enter your Phone Number."
+msgstr ""
+
+#: ../class/CBS.Booking.class.php:674
+msgid "We cannot send this booking."
+msgstr ""
+
+#: ../class/CBS.Booking.class.php:749 ../class/CBS.Booking.class.php:750
+#, php-format
+msgid "New booking \"%s\" is received"
+msgstr ""
+
+#: ../class/CBS.Booking.class.php:757
+msgid "Your booking has been sent."
+msgstr ""
+
+#: ../class/CBS.Booking.class.php:761
+msgid "Click to pay via paypal."
+msgstr ""
+
+#: ../class/CBS.Booking.class.php:780
+msgid "Errors Found!"
+msgstr ""
+
+#: ../class/CBS.Booking.class.php:780
+msgid "Thank you!"
+msgstr ""
+
+#: ../class/CBS.Booking.class.php:796
+msgid "Booking #"
+msgstr ""
+
+#: ../class/CBS.Booking.class.php:1061
+#, php-format
+msgid "(%d min)"
+msgstr ""
+
+#: ../class/CBS.Booking.class.php:1068
+#, php-format
+msgid "%s Package"
+msgstr ""
+
+#: ../class/CBS.Booking.class.php:1068
+msgid "Single Service"
+msgstr ""
+
+#: ../class/CBS.Booking.class.php:1110
+msgid "Click on this link to pay for booking:"
+msgstr ""
+
+#: ../class/CBS.Booking.class.php:1110
+msgid "Click to pay via Paypal"
+msgstr ""
+
+#: ../class/CBS.Booking.class.php:1134
+#, php-format
+msgid "Payment for booking \"%s\""
+msgstr ""
+
+#: ../class/CBS.BookingStatus.class.php:14
+msgid "New"
+msgstr ""
+
+#: ../class/CBS.BookingStatus.class.php:15
+msgid "Accepted"
+msgstr ""
+
+#: ../class/CBS.BookingStatus.class.php:16
+msgid "Rejected"
+msgstr ""
+
+#: ../class/CBS.BookingStatus.class.php:17
+msgid "Finished"
+msgstr ""
+
+#: ../class/CBS.Currency.class.php:16
+msgid "Afghan afghani"
+msgstr ""
+
+#: ../class/CBS.Currency.class.php:21
+msgid "Albanian lek"
+msgstr ""
+
+#: ../class/CBS.Currency.class.php:26
+msgid "Algerian dinar"
+msgstr ""
+
+#: ../class/CBS.Currency.class.php:31
+msgid "Angolan kwanza"
+msgstr ""
+
+#: ../class/CBS.Currency.class.php:36
+msgid "Argentine peso"
+msgstr ""
+
+#: ../class/CBS.Currency.class.php:41
+msgid "Armenian dram"
+msgstr ""
+
+#: ../class/CBS.Currency.class.php:46
+msgid "Aruban florin"
+msgstr ""
+
+#: ../class/CBS.Currency.class.php:51
+msgid "Australian dollar"
+msgstr ""
+
+#: ../class/CBS.Currency.class.php:57
+msgid "Azerbaijani manat"
+msgstr ""
+
+#: ../class/CBS.Currency.class.php:62
+msgid "Bahamian dollar"
+msgstr ""
+
+#: ../class/CBS.Currency.class.php:67
+msgid "Bahraini dinar"
+msgstr ""
+
+#: ../class/CBS.Currency.class.php:73
+msgid "Bangladeshi taka"
+msgstr ""
+
+#: ../class/CBS.Currency.class.php:78
+msgid "Barbadian dollar"
+msgstr ""
+
+#: ../class/CBS.Currency.class.php:83
+msgid "Belarusian ruble"
+msgstr ""
+
+#: ../class/CBS.Currency.class.php:88
+msgid "Belize dollar"
+msgstr ""
+
+#: ../class/CBS.Currency.class.php:93
+msgid "Bhutanese ngultrum"
+msgstr ""
+
+#: ../class/CBS.Currency.class.php:98
+msgid "Bolivian boliviano"
+msgstr ""
+
+#: ../class/CBS.Currency.class.php:103
+msgid "Bosnia and Herzegovina konvertibilna marka"
+msgstr ""
+
+#: ../class/CBS.Currency.class.php:108
+msgid "Botswana pula"
+msgstr ""
+
+#: ../class/CBS.Currency.class.php:114
+msgid "Brazilian real"
+msgstr ""
+
+#: ../class/CBS.Currency.class.php:119
+msgid "British pound"
+msgstr ""
+
+#: ../class/CBS.Currency.class.php:125
+msgid "Brunei dollar"
+msgstr ""
+
+#: ../class/CBS.Currency.class.php:131
+msgid "Bulgarian lev"
+msgstr ""
+
+#: ../class/CBS.Currency.class.php:136
+msgid "Burundi franc"
+msgstr ""
+
+#: ../class/CBS.Currency.class.php:141
+msgid "Cayman Islands dollar"
+msgstr ""
+
+#: ../class/CBS.Currency.class.php:146
+msgid "Cambodian riel"
+msgstr ""
+
+#: ../class/CBS.Currency.class.php:151
+msgid "Canadian dollar"
+msgstr ""
+
+#: ../class/CBS.Currency.class.php:157
+msgid "Cape Verdean escudo"
+msgstr ""
+
+#: ../class/CBS.Currency.class.php:162 ../class/CBS.Currency.class.php:167
+msgid "Central African CFA franc"
+msgstr ""
+
+#: ../class/CBS.Currency.class.php:172
+msgid "CFP franc"
+msgstr ""
+
+#: ../class/CBS.Currency.class.php:177
+msgid "Chilean peso"
+msgstr ""
+
+#: ../class/CBS.Currency.class.php:182
+msgid "Chinese renminbi"
+msgstr ""
+
+#: ../class/CBS.Currency.class.php:187
+msgid "Colombian peso"
+msgstr ""
+
+#: ../class/CBS.Currency.class.php:192
+msgid "Comorian franc"
+msgstr ""
+
+#: ../class/CBS.Currency.class.php:197
+msgid "Congolese franc"
+msgstr ""
+
+#: ../class/CBS.Currency.class.php:202
+msgid "Costa Rican colon"
+msgstr ""
+
+#: ../class/CBS.Currency.class.php:207
+msgid "Croatian kuna"
+msgstr ""
+
+#: ../class/CBS.Currency.class.php:212
+msgid "Cuban peso"
+msgstr ""
+
+#: ../class/CBS.Currency.class.php:217
+msgid "Czech koruna"
+msgstr ""
+
+#: ../class/CBS.Currency.class.php:222
+msgid "Danish krone"
+msgstr ""
+
+#: ../class/CBS.Currency.class.php:227
+msgid "Djiboutian franc"
+msgstr ""
+
+#: ../class/CBS.Currency.class.php:232
+msgid "Dominican peso"
+msgstr ""
+
+#: ../class/CBS.Currency.class.php:238
+msgid "East Caribbean dollar"
+msgstr ""
+
+#: ../class/CBS.Currency.class.php:243
+msgid "Egyptian pound"
+msgstr ""
+
+#: ../class/CBS.Currency.class.php:248
+msgid "Eritrean nakfa"
+msgstr ""
+
+#: ../class/CBS.Currency.class.php:253
+msgid "Estonian kroon"
+msgstr ""
+
+#: ../class/CBS.Currency.class.php:258
+msgid "Ethiopian birr"
+msgstr ""
+
+#: ../class/CBS.Currency.class.php:263
+msgid "European euro"
+msgstr ""
+
+#: ../class/CBS.Currency.class.php:268
+msgid "Falkland Islands pound"
+msgstr ""
+
+#: ../class/CBS.Currency.class.php:273
+msgid "Fijian dollar"
+msgstr ""
+
+#: ../class/CBS.Currency.class.php:279
+msgid "Gambian dalasi"
+msgstr ""
+
+#: ../class/CBS.Currency.class.php:284
+msgid "Georgian lari"
+msgstr ""
+
+#: ../class/CBS.Currency.class.php:289
+msgid "Ghanaian cedi"
+msgstr ""
+
+#: ../class/CBS.Currency.class.php:294
+msgid "Gibraltar pound"
+msgstr ""
+
+#: ../class/CBS.Currency.class.php:299
+msgid "Guatemalan quetzal"
+msgstr ""
+
+#: ../class/CBS.Currency.class.php:305
+msgid "Guinean franc"
+msgstr ""
+
+#: ../class/CBS.Currency.class.php:310
+msgid "Guyanese dollar"
+msgstr ""
+
+#: ../class/CBS.Currency.class.php:315
+msgid "Haitian gourde"
+msgstr ""
+
+#: ../class/CBS.Currency.class.php:320
+msgid "Honduran lempira"
+msgstr ""
+
+#: ../class/CBS.Currency.class.php:326
+msgid "Hong Kong dollar"
+msgstr ""
+
+#: ../class/CBS.Currency.class.php:332
+msgid "Hungarian forint"
+msgstr ""
+
+#: ../class/CBS.Currency.class.php:337
+msgid "Icelandic krona"
+msgstr ""
+
+#: ../class/CBS.Currency.class.php:342
+msgid "Indian rupee"
+msgstr ""
+
+#: ../class/CBS.Currency.class.php:348
+msgid "Indonesian rupiah"
+msgstr ""
+
+#: ../class/CBS.Currency.class.php:354
+msgid "Iranian rial"
+msgstr ""
+
+#: ../class/CBS.Currency.class.php:360
+msgid "Iraqi dinar"
+msgstr ""
+
+#: ../class/CBS.Currency.class.php:366
+msgid "Israeli new sheqel"
+msgstr ""
+
+#: ../class/CBS.Currency.class.php:372
+msgid "Yemeni rial"
+msgstr ""
+
+#: ../class/CBS.Currency.class.php:377
+msgid "Jamaican dollar"
+msgstr ""
+
+#: ../class/CBS.Currency.class.php:382
+msgid "Japanese yen"
+msgstr ""
+
+#: ../class/CBS.Currency.class.php:388
+msgid "Jordanian dinar"
+msgstr ""
+
+#: ../class/CBS.Currency.class.php:393
+msgid "Kazakhstani tenge"
+msgstr ""
+
+#: ../class/CBS.Currency.class.php:398
+msgid "Kenyan shilling"
+msgstr ""
+
+#: ../class/CBS.Currency.class.php:403
+msgid "Kyrgyzstani som"
+msgstr ""
+
+#: ../class/CBS.Currency.class.php:408
+msgid "Kuwaiti dinar"
+msgstr ""
+
+#: ../class/CBS.Currency.class.php:414
+msgid "Lao kip"
+msgstr ""
+
+#: ../class/CBS.Currency.class.php:419
+msgid "Latvian lats"
+msgstr ""
+
+#: ../class/CBS.Currency.class.php:424
+msgid "Lebanese lira"
+msgstr ""
+
+#: ../class/CBS.Currency.class.php:429
+msgid "Lesotho loti"
+msgstr ""
+
+#: ../class/CBS.Currency.class.php:434
+msgid "Liberian dollar"
+msgstr ""
+
+#: ../class/CBS.Currency.class.php:439
+msgid "Libyan dinar"
+msgstr ""
+
+#: ../class/CBS.Currency.class.php:444
+msgid "Lithuanian litas"
+msgstr ""
+
+#: ../class/CBS.Currency.class.php:449
+msgid "Macanese pataca"
+msgstr ""
+
+#: ../class/CBS.Currency.class.php:454
+msgid "Macedonian denar"
+msgstr ""
+
+#: ../class/CBS.Currency.class.php:459
+msgid "Malagasy ariary"
+msgstr ""
+
+#: ../class/CBS.Currency.class.php:464
+msgid "Malaysian ringgit"
+msgstr ""
+
+#: ../class/CBS.Currency.class.php:470
+msgid "Malawian kwacha"
+msgstr ""
+
+#: ../class/CBS.Currency.class.php:475
+msgid "Maldivian rufiyaa"
+msgstr ""
+
+#: ../class/CBS.Currency.class.php:480
+msgid "Mauritanian ouguiya"
+msgstr ""
+
+#: ../class/CBS.Currency.class.php:485
+msgid "Mauritian rupee"
+msgstr ""
+
+#: ../class/CBS.Currency.class.php:490
+msgid "Mexican peso"
+msgstr ""
+
+#: ../class/CBS.Currency.class.php:496
+msgid "Myanma kyat"
+msgstr ""
+
+#: ../class/CBS.Currency.class.php:501
+msgid "Moldovan leu"
+msgstr ""
+
+#: ../class/CBS.Currency.class.php:506
+msgid "Mongolian tugrik"
+msgstr ""
+
+#: ../class/CBS.Currency.class.php:511
+msgid "Moroccan dirham"
+msgstr ""
+
+#: ../class/CBS.Currency.class.php:516
+msgid "Mozambican metical"
+msgstr ""
+
+#: ../class/CBS.Currency.class.php:521
+msgid "Namibian dollar"
+msgstr ""
+
+#: ../class/CBS.Currency.class.php:526
+msgid "Nepalese rupee"
+msgstr ""
+
+#: ../class/CBS.Currency.class.php:531
+msgid "Netherlands Antillean gulden"
+msgstr ""
+
+#: ../class/CBS.Currency.class.php:536
+msgid "New Taiwan dollar"
+msgstr ""
+
+#: ../class/CBS.Currency.class.php:542
+msgid "New Zealand dollar"
+msgstr ""
+
+#: ../class/CBS.Currency.class.php:548
+msgid "Nicaraguan cordoba"
+msgstr ""
+
+#: ../class/CBS.Currency.class.php:554
+msgid "Nigerian naira"
+msgstr ""
+
+#: ../class/CBS.Currency.class.php:560
+msgid "North Korean won"
+msgstr ""
+
+#: ../class/CBS.Currency.class.php:566
+msgid "Norwegian krone"
+msgstr ""
+
+#: ../class/CBS.Currency.class.php:571
+msgid "Omani rial"
+msgstr ""
+
+#: ../class/CBS.Currency.class.php:577
+msgid "Paanga"
+msgstr ""
+
+#: ../class/CBS.Currency.class.php:582
+msgid "Pakistani rupee"
+msgstr ""
+
+#: ../class/CBS.Currency.class.php:588
+msgid "Panamanian balboa"
+msgstr ""
+
+#: ../class/CBS.Currency.class.php:594
+msgid "Papua New Guinean kina"
+msgstr ""
+
+#: ../class/CBS.Currency.class.php:599
+msgid "Paraguayan guarani"
+msgstr ""
+
+#: ../class/CBS.Currency.class.php:604
+msgid "Peruvian nuevo sol"
+msgstr ""
+
+#: ../class/CBS.Currency.class.php:609
+msgid "Philippine peso"
+msgstr ""
+
+#: ../class/CBS.Currency.class.php:614
+msgid "Polish zloty"
+msgstr ""
+
+#: ../class/CBS.Currency.class.php:619
+msgid "Qatari riyal"
+msgstr ""
+
+#: ../class/CBS.Currency.class.php:625
+msgid "Romanian leu"
+msgstr ""
+
+#: ../class/CBS.Currency.class.php:630
+msgid "Russian ruble"
+msgstr ""
+
+#: ../class/CBS.Currency.class.php:635
+msgid "Rwandan franc"
+msgstr ""
+
+#: ../class/CBS.Currency.class.php:640
+msgid "Saint Helena pound"
+msgstr ""
+
+#: ../class/CBS.Currency.class.php:645
+msgid "Samoan tala"
+msgstr ""
+
+#: ../class/CBS.Currency.class.php:650
+msgid "Sao Tome and Principe dobra"
+msgstr ""
+
+#: ../class/CBS.Currency.class.php:655
+msgid "Saudi riyal"
+msgstr ""
+
+#: ../class/CBS.Currency.class.php:661
+msgid "Seychellois rupee"
+msgstr ""
+
+#: ../class/CBS.Currency.class.php:666
+msgid "Serbian dinar"
+msgstr ""
+
+#: ../class/CBS.Currency.class.php:671
+msgid "Sierra Leonean leone"
+msgstr ""
+
+#: ../class/CBS.Currency.class.php:676
+msgid "Singapore dollar"
+msgstr ""
+
+#: ../class/CBS.Currency.class.php:682
+msgid "Syrian pound"
+msgstr ""
+
+#: ../class/CBS.Currency.class.php:688
+msgid "Slovak koruna"
+msgstr ""
+
+#: ../class/CBS.Currency.class.php:693
+msgid "Solomon Islands dollar"
+msgstr ""
+
+#: ../class/CBS.Currency.class.php:698
+msgid "Somali shilling"
+msgstr ""
+
+#: ../class/CBS.Currency.class.php:703
+msgid "South African rand"
+msgstr ""
+
+#: ../class/CBS.Currency.class.php:708
+msgid "South Korean won"
+msgstr ""
+
+#: ../class/CBS.Currency.class.php:714
+msgid "Special Drawing Rights"
+msgstr ""
+
+#: ../class/CBS.Currency.class.php:719
+msgid "Sri Lankan rupee"
+msgstr ""
+
+#: ../class/CBS.Currency.class.php:725
+msgid "Sudanese pound"
+msgstr ""
+
+#: ../class/CBS.Currency.class.php:730
+msgid "Surinamese dollar"
+msgstr ""
+
+#: ../class/CBS.Currency.class.php:735
+msgid "Swazi lilangeni"
+msgstr ""
+
+#: ../class/CBS.Currency.class.php:740
+msgid "Swedish krona"
+msgstr ""
+
+#: ../class/CBS.Currency.class.php:745
+msgid "Swiss franc"
+msgstr ""
+
+#: ../class/CBS.Currency.class.php:751
+msgid "Tajikistani somoni"
+msgstr ""
+
+#: ../class/CBS.Currency.class.php:756
+msgid "Tanzanian shilling"
+msgstr ""
+
+#: ../class/CBS.Currency.class.php:761
+msgid "Thai baht"
+msgstr ""
+
+#: ../class/CBS.Currency.class.php:766
+msgid "Trinidad and Tobago dollar"
+msgstr ""
+
+#: ../class/CBS.Currency.class.php:771
+msgid "Tunisian dinar"
+msgstr ""
+
+#: ../class/CBS.Currency.class.php:776
+msgid "Turkish new lira"
+msgstr ""
+
+#: ../class/CBS.Currency.class.php:781
+msgid "Turkmen manat"
+msgstr ""
+
+#: ../class/CBS.Currency.class.php:786
+msgid "UAE dirham"
+msgstr ""
+
+#: ../class/CBS.Currency.class.php:791
+msgid "Ugandan shilling"
+msgstr ""
+
+#: ../class/CBS.Currency.class.php:796
+msgid "Ukrainian hryvnia"
+msgstr ""
+
+#: ../class/CBS.Currency.class.php:801
+msgid "United States dollar"
+msgstr ""
+
+#: ../class/CBS.Currency.class.php:808
+msgid "Uruguayan peso"
+msgstr ""
+
+#: ../class/CBS.Currency.class.php:813
+msgid "Uzbekistani som"
+msgstr ""
+
+#: ../class/CBS.Currency.class.php:818
+msgid "Vanuatu vatu"
+msgstr ""
+
+#: ../class/CBS.Currency.class.php:823
+msgid "Venezuelan bolivar"
+msgstr ""
+
+#: ../class/CBS.Currency.class.php:828
+msgid "Vietnamese dong"
+msgstr ""
+
+#: ../class/CBS.Currency.class.php:833
+msgid "West African CFA franc"
+msgstr ""
+
+#: ../class/CBS.Currency.class.php:838
+msgid "Zambian kwacha"
+msgstr ""
+
+#: ../class/CBS.Currency.class.php:843
+msgid "Zimbabwean dollar"
+msgstr ""
+
+#: ../class/CBS.Currency.class.php:848
+msgid "Chinese Yuan"
+msgstr ""
+
+#: ../class/CBS.Date.class.php:14
+msgid "12 - hour"
+msgstr ""
+
+#: ../class/CBS.Date.class.php:15
+msgid "24 - hour"
+msgstr ""
+
+#: ../class/CBS.Date.class.php:115
+msgid "pm"
+msgstr ""
+
+#: ../class/CBS.Date.class.php:119
+msgid "am"
+msgstr ""
+
+#: ../class/CBS.Email.class.php:14
+msgid "SSL"
+msgstr ""
+
+#: ../class/CBS.Email.class.php:15
+msgid "TLS"
+msgstr ""
+
+#: ../class/CBS.Location.class.php:14 ../class/CBS.Package.class.php:63
+#: ../class/CBS.Package.class.php:120 ../class/CBS.Service.class.php:26
+#: ../class/CBS.Service.class.php:32 ../class/CBS.Service.class.php:38
+#: ../template/admin/meta_box_package_service.php:7
+#: ../template/email/part/booking_service_list.php:4
+msgid "Services"
+msgstr ""
+
+#: ../class/CBS.Location.class.php:15 ../class/CBS.Package.class.php:26
+#: ../class/CBS.Package.class.php:32 ../class/CBS.Package.class.php:38
+msgid "Packages"
+msgstr ""
+
+#: ../class/CBS.Location.class.php:16
+msgid "Packages And Services"
+msgstr ""
+
+#: ../class/CBS.Location.class.php:48 ../class/CBS.Location.class.php:53
+msgid "Locations"
+msgstr ""
+
+#: ../class/CBS.Location.class.php:49 ../class/CBS.Package.class.php:28
+#: ../class/CBS.Service.class.php:28 ../class/CBS.Vehicle.class.php:54
+msgid "Add New"
+msgstr ""
+
+#: ../class/CBS.Location.class.php:50
+msgid "Add New Location"
+msgstr ""
+
+#: ../class/CBS.Location.class.php:51
+msgid "Edit Location"
+msgstr ""
+
+#: ../class/CBS.Location.class.php:52
+msgid "New Location"
+msgstr ""
+
+#: ../class/CBS.Location.class.php:54
+msgid "View Location"
+msgstr ""
+
+#: ../class/CBS.Location.class.php:55
+msgid "Search Locations"
+msgstr ""
+
+#: ../class/CBS.Location.class.php:56
+msgid "No Locations Found"
+msgstr ""
+
+#: ../class/CBS.Location.class.php:57
+msgid "No Locations Found in Trash"
+msgstr ""
+
+#: ../class/CBS.Location.class.php:59
+msgid "Car Types"
+msgstr ""
+
+#: ../class/CBS.Location.class.php:87
+msgid "Date & time"
+msgstr ""
+
+#: ../class/CBS.Location.class.php:88
+msgid "E-mail account"
+msgstr ""
+
+#: ../class/CBS.Location.class.php:89 ../class/CBS.Location.class.php:197
+msgid "Address"
+msgstr ""
+
+#: ../class/CBS.Location.class.php:90
+msgid "Colors"
+msgstr ""
+
+#: ../class/CBS.Location.class.php:91
+msgid "Payments"
+msgstr ""
+
+#: ../class/CBS.Location.class.php:196
+msgid "Title"
+msgstr ""
+
+#: ../class/CBS.Location.class.php:247
+msgid "Phone: "
+msgstr ""
+
+#: ../class/CBS.Location.class.php:250
+msgid "Fax: "
+msgstr ""
+
+#: ../class/CBS.Location.class.php:253
+msgid "E-mail: "
+msgstr ""
+
+#: ../class/CBS.Location.class.php:321
+msgid ""
+"We will confirm your appointment with you by phone or e-mail within 24 hours "
+"of receiving your request."
+msgstr ""
+
+#: ../class/CBS.Notice.class.php:46
+msgid "Error"
+msgstr ""
+
+#: ../class/CBS.Notice.class.php:47
+msgid "Changes can not be saved."
+msgstr ""
+
+#: ../class/CBS.Notice.class.php:51
+msgid "Success"
+msgstr ""
+
+#: ../class/CBS.Notice.class.php:52
+msgid "All changes have been saved."
+msgstr ""
+
+#: ../class/CBS.Package.class.php:27
+#: ../template/admin/meta_box_booking_general.php:156
+msgid "Package"
+msgstr ""
+
+#: ../class/CBS.Package.class.php:29
+msgid "Add New Package"
+msgstr ""
+
+#: ../class/CBS.Package.class.php:30
+msgid "Edit Package"
+msgstr ""
+
+#: ../class/CBS.Package.class.php:31
+msgid "New Package"
+msgstr ""
+
+#: ../class/CBS.Package.class.php:33
+msgid "View Package"
+msgstr ""
+
+#: ../class/CBS.Package.class.php:34
+msgid "Search Packages"
+msgstr ""
+
+#: ../class/CBS.Package.class.php:35
+msgid "No Packages Found"
+msgstr ""
+
+#: ../class/CBS.Package.class.php:36
+msgid "No Packages Found in Trash"
+msgstr ""
+
+#: ../class/CBS.Package.class.php:118
+msgid "Package Name"
+msgstr ""
+
+#: ../class/CBS.Package.class.php:119 ../class/CBS.Service.class.php:114
+#: ../class/CBS.Vehicle.class.php:162
+msgid "Order"
+msgstr ""
+
+#: ../class/CBS.Package.class.php:165
+msgid "Included:"
+msgstr ""
+
+#: ../class/CBS.Package.class.php:167
+msgid "Related:"
+msgstr ""
+
+#: ../class/CBS.Package.class.php:217 ../class/CBS.Service.class.php:498
+#: ../class/CBS.Vehicle.class.php:53
+#: ../template/admin/meta_box_booking_client.php:23
+#: ../template/admin/meta_box_booking_general.php:142
+msgid "Vehicle"
+msgstr ""
+
+#: ../class/CBS.PaymentType.class.php:14
+#: ../template/admin/meta_box_location_payment.php:7
+msgid "Paypal"
+msgstr ""
+
+#: ../class/CBS.Plugin.class.php:251
+msgid "This plugin requires enabled cURL."
+msgstr ""
+
+#: ../class/CBS.Plugin.class.php:448 ../template/admin/option.php:23
+msgid "Car Wash Booking System"
+msgstr ""
+
+#: ../class/CBS.Plugin.class.php:448
+msgid "Car Wash<br/>Booking System"
+msgstr ""
+
+#: ../class/CBS.Plugin.class.php:521
+#, php-format
+msgid ""
+"<b>File %s cannot be created. Please make sure that this location is "
+"writable.</b>"
+msgstr ""
+
+#: ../class/CBS.Plugin.class.php:542
+msgid ""
+"Seems, that demo data has been imported. To make sure if this process has "
+"been sucessfully completed,please check below content of buffer returned by "
+"external applications."
+msgstr ""
+
+#: ../class/CBS.Plugin.class.php:547
+msgid "Dummy data cannot be imported."
+msgstr ""
+
+#: ../class/CBS.Service.class.php:27
+#: ../template/admin/meta_box_package_service.php:23
+msgid "Service"
+msgstr ""
+
+#: ../class/CBS.Service.class.php:29
+msgid "Add New Service"
+msgstr ""
+
+#: ../class/CBS.Service.class.php:30
+msgid "Edit Service"
+msgstr ""
+
+#: ../class/CBS.Service.class.php:31
+msgid "New Service"
+msgstr ""
+
+#: ../class/CBS.Service.class.php:33
+msgid "View Service"
+msgstr ""
+
+#: ../class/CBS.Service.class.php:34
+msgid "Search Services"
+msgstr ""
+
+#: ../class/CBS.Service.class.php:35
+msgid "No Services Found"
+msgstr ""
+
+#: ../class/CBS.Service.class.php:36
+msgid "No Services Found in Trash"
+msgstr ""
+
+#: ../class/CBS.Service.class.php:113
+msgid "Service Name"
+msgstr ""
+
+#: ../class/CBS.Vehicle.class.php:14
+msgid "4x4"
+msgstr ""
+
+#: ../class/CBS.Vehicle.class.php:15
+msgid "Bicycle"
+msgstr ""
+
+#: ../class/CBS.Vehicle.class.php:16
+msgid "Boat"
+msgstr ""
+
+#: ../class/CBS.Vehicle.class.php:17
+msgid "Bus"
+msgstr ""
+
+#: ../class/CBS.Vehicle.class.php:18
+msgid "Car mid size"
+msgstr ""
+
+#: ../class/CBS.Vehicle.class.php:19
+msgid "Caravan"
+msgstr ""
+
+#: ../class/CBS.Vehicle.class.php:20
+msgid "Double decker"
+msgstr ""
+
+#: ../class/CBS.Vehicle.class.php:21
+msgid "Heavy equipment"
+msgstr ""
+
+#: ../class/CBS.Vehicle.class.php:22
+msgid "Jetski"
+msgstr ""
+
+#: ../class/CBS.Vehicle.class.php:23
+msgid "Limousine"
+msgstr ""
+
+#: ../class/CBS.Vehicle.class.php:24
+msgid "Midibus"
+msgstr ""
+
+#: ../class/CBS.Vehicle.class.php:25
+msgid "Mini car"
+msgstr ""
+
+#: ../class/CBS.Vehicle.class.php:26
+msgid "Minibus"
+msgstr ""
+
+#: ../class/CBS.Vehicle.class.php:27
+msgid "Minivan"
+msgstr ""
+
+#: ../class/CBS.Vehicle.class.php:28
+msgid "Motorcycle"
+msgstr ""
+
+#: ../class/CBS.Vehicle.class.php:29
+msgid "Pickup"
+msgstr ""
+
+#: ../class/CBS.Vehicle.class.php:30
+msgid "Small car"
+msgstr ""
+
+#: ../class/CBS.Vehicle.class.php:31
+msgid "Station wagon"
+msgstr ""
+
+#: ../class/CBS.Vehicle.class.php:32
+msgid "Suv"
+msgstr ""
+
+#: ../class/CBS.Vehicle.class.php:33
+msgid "Trailer"
+msgstr ""
+
+#: ../class/CBS.Vehicle.class.php:34
+msgid "Truck large"
+msgstr ""
+
+#: ../class/CBS.Vehicle.class.php:35
+msgid "Truck mid size"
+msgstr ""
+
+#: ../class/CBS.Vehicle.class.php:36
+msgid "Truck"
+msgstr ""
+
+#: ../class/CBS.Vehicle.class.php:37
+msgid "Van"
+msgstr ""
+
+#: ../class/CBS.Vehicle.class.php:52 ../class/CBS.Vehicle.class.php:58
+#: ../class/CBS.Vehicle.class.php:64
+msgid "Vehicles"
+msgstr ""
+
+#: ../class/CBS.Vehicle.class.php:55
+msgid "Add New Vehicle"
+msgstr ""
+
+#: ../class/CBS.Vehicle.class.php:56
+msgid "Edit Vehicle"
+msgstr ""
+
+#: ../class/CBS.Vehicle.class.php:57
+msgid "New Vehicle"
+msgstr ""
+
+#: ../class/CBS.Vehicle.class.php:59
+msgid "View Vehicle"
+msgstr ""
+
+#: ../class/CBS.Vehicle.class.php:60
+msgid "Search Vehicles"
+msgstr ""
+
+#: ../class/CBS.Vehicle.class.php:61
+msgid "No Vehicles Found"
+msgstr ""
+
+#: ../class/CBS.Vehicle.class.php:62
+msgid "No Vehicles Found in Trash"
+msgstr ""
+
+#: ../class/CBS.Vehicle.class.php:161
+#: ../template/admin/meta_box_location_color.php:16
+#: ../template/admin/meta_box_vehicle_general.php:7
+msgid "Icon"
+msgstr ""
+
+#: ../library/parsers.php:42 ../library/parsers.php:72
+#: ../library/parsers.php:80
+msgid "There was an error when reading this WXR file"
+msgstr ""
+
+#: ../library/parsers.php:43
+msgid ""
+"Details are shown above. The importer will now try again with a different "
+"parser..."
+msgstr ""
+
+#: ../library/parsers.php:84 ../library/parsers.php:89
+#: ../library/parsers.php:279 ../library/parsers.php:468
+msgid ""
+"This does not appear to be a WXR file, missing/invalid WXR version number"
+msgstr ""
+
+#: ../library/wordpress-importer.php:134 ../library/wordpress-importer.php:143
+#: ../library/wordpress-importer.php:194 ../library/wordpress-importer.php:198
+#: ../library/wordpress-importer.php:207
+msgid "Sorry, there has been an error."
+msgstr ""
+
+#: ../library/wordpress-importer.php:135
+msgid "The file does not exist, please try again."
+msgstr ""
+
+#: ../library/wordpress-importer.php:178
+msgid "All done."
+msgstr ""
+
+#: ../library/wordpress-importer.php:178
+msgid "Have fun!"
+msgstr ""
+
+#: ../library/wordpress-importer.php:179
+msgid "Remember to update the passwords and roles of imported users."
+msgstr ""
+
+#: ../library/wordpress-importer.php:199
+#, php-format
+msgid ""
+"The export file could not be found at <code>%s</code>. It is likely that "
+"this was caused by a permissions problem."
+msgstr ""
+
+#: ../library/wordpress-importer.php:215
+#, php-format
+msgid ""
+"This WXR file (version %s) may not be supported by this version of the "
+"importer. Please consider updating."
+msgstr ""
+
+#: ../library/wordpress-importer.php:240
+#, php-format
+msgid ""
+"Failed to import author %s. Their posts will be attributed to the current "
+"user."
+msgstr ""
+
+#: ../library/wordpress-importer.php:266
+msgid "Assign Authors"
+msgstr ""
+
+#: ../library/wordpress-importer.php:267
+msgid ""
+"To make it easier for you to edit and save the imported content, you may "
+"want to reassign the author of the imported item to an existing user of this "
+"site. For example, you may want to import all the entries as <code>admin</"
+"code>s entries."
+msgstr ""
+
+#: ../library/wordpress-importer.php:269
+#, php-format
+msgid ""
+"If a new user is created by WordPress, a new password will be randomly "
+"generated and the new user&#8217;s role will be set as %s. Manually changing "
+"the new user&#8217;s details will be necessary."
+msgstr ""
+
+#: ../library/wordpress-importer.php:279
+msgid "Import Attachments"
+msgstr ""
+
+#: ../library/wordpress-importer.php:282
+msgid "Download and import file attachments"
+msgstr ""
+
+#: ../library/wordpress-importer.php:286
+msgid "Submit"
+msgstr ""
+
+#: ../library/wordpress-importer.php:299
+msgid "Import author:"
+msgstr ""
+
+#: ../library/wordpress-importer.php:310
+msgid "or create new user with login name:"
+msgstr ""
+
+#: ../library/wordpress-importer.php:313
+msgid "as a new user:"
+msgstr ""
+
+#: ../library/wordpress-importer.php:321
+msgid "assign posts to an existing user:"
+msgstr ""
+
+#: ../library/wordpress-importer.php:323
+msgid "or assign posts to an existing user:"
+msgstr ""
+
+#: ../library/wordpress-importer.php:324
+msgid "- Select -"
+msgstr ""
+
+#: ../library/wordpress-importer.php:374
+#, php-format
+msgid ""
+"Failed to create new user for %s. Their posts will be attributed to the "
+"current user."
+msgstr ""
+
+#: ../library/wordpress-importer.php:425
+#, php-format
+msgid "Failed to import category %s"
+msgstr ""
+
+#: ../library/wordpress-importer.php:465
+#, php-format
+msgid "Failed to import post tag %s"
+msgstr ""
+
+#: ../library/wordpress-importer.php:511 ../library/wordpress-importer.php:652
+#, php-format
+msgid "Failed to import %s %s"
+msgstr ""
+
+#: ../library/wordpress-importer.php:537
+#, php-format
+msgid "Failed to import &#8220;%s&#8221;: Invalid post type %s"
+msgstr ""
+
+#: ../library/wordpress-importer.php:559
+#, php-format
+msgid "%s &#8220;%s&#8221; already exists."
+msgstr ""
+
+#: ../library/wordpress-importer.php:618
+#, php-format
+msgid "Failed to import %s &#8220;%s&#8221;"
+msgstr ""
+
+#: ../library/wordpress-importer.php:793
+msgid "Menu item skipped due to missing menu slug"
+msgstr ""
+
+#: ../library/wordpress-importer.php:800
+#, php-format
+msgid "Menu item skipped due to invalid menu slug: %s"
+msgstr ""
+
+#: ../library/wordpress-importer.php:887
+msgid "Fetching attachments is not enabled"
+msgstr ""
+
+#: ../library/wordpress-importer.php:900
+msgid "Invalid file type"
+msgstr ""
+
+#: ../library/wordpress-importer.php:944
+msgid "Remote server did not respond"
+msgstr ""
+
+#: ../library/wordpress-importer.php:950
+#, php-format
+msgid "Remote server returned error response %1$d %2$s"
+msgstr ""
+
+#: ../library/wordpress-importer.php:957
+msgid "Remote file is incorrect size"
+msgstr ""
+
+#: ../library/wordpress-importer.php:962
+msgid "Zero size file downloaded"
+msgstr ""
+
+#: ../library/wordpress-importer.php:968
+#, php-format
+msgid "Remote file is too large, limit is %s"
+msgstr ""
+
+#: ../library/wordpress-importer.php:1067
+msgid "Import WordPress"
+msgstr ""
+
+#: ../library/wordpress-importer.php:1074
+#, php-format
+msgid ""
+"A new version of this importer is available. Please update to version %s to "
+"ensure compatibility with newer export files."
+msgstr ""
+
+#: ../library/wordpress-importer.php:1089
+msgid ""
+"Howdy! Upload your WordPress eXtended RSS (WXR) file and we&#8217;ll import "
+"the posts, pages, comments, custom fields, categories, and tags into this "
+"site."
+msgstr ""
+
+#: ../library/wordpress-importer.php:1090
+msgid "Choose a WXR (.xml) file to upload, then click Upload file and import."
+msgstr ""
+
+#: ../template/admin/meta_box_booking_client.php:5
+#: ../template/email/part/booking_client_address.php:8
+msgid "First name"
+msgstr ""
+
+#: ../template/admin/meta_box_booking_client.php:7
+msgid "First name."
+msgstr ""
+
+#: ../template/admin/meta_box_booking_client.php:14
+#: ../template/email/part/booking_client_address.php:13
+msgid "Second name"
+msgstr ""
+
+#: ../template/admin/meta_box_booking_client.php:16
+msgid "Second name."
+msgstr ""
+
+#: ../template/admin/meta_box_booking_client.php:25
+msgid "Vehicle Make and Model."
+msgstr ""
+
+#: ../template/admin/meta_box_booking_client.php:32
+#: ../template/admin/meta_box_location_payment.php:26
+#: ../template/email/part/booking_client_address.php:23
+#: ../template/email/part/booking_location_address.php:48
+msgid "E-mail address"
+msgstr ""
+
+#: ../template/admin/meta_box_booking_client.php:34
+#: ../template/admin/meta_box_location_address.php:61
+#: ../template/admin/meta_box_location_address.php:62
+msgid "E-mail address."
+msgstr ""
+
+#: ../template/admin/meta_box_booking_client.php:41
+#: ../template/admin/meta_box_location_address.php:47
+#: ../template/email/part/booking_client_address.php:28
+#: ../template/email/part/booking_location_address.php:38
+msgid "Phone number"
+msgstr ""
+
+#: ../template/admin/meta_box_booking_client.php:43
+#: ../template/admin/meta_box_location_address.php:48
+msgid "Phone number."
+msgstr ""
+
+#: ../template/admin/meta_box_booking_client.php:50
+#: ../template/email/part/booking_client_address.php:33
+#: ../template/public/booking-form.php:24
+msgid "Message"
+msgstr ""
+
+#: ../template/admin/meta_box_booking_client.php:52
+msgid "Message."
+msgstr ""
+
+#: ../template/admin/meta_box_booking_detail.php:5
+msgid "List of services"
+msgstr ""
+
+#: ../template/admin/meta_box_booking_detail.php:7
+msgid "List of services."
+msgstr ""
+
+#: ../template/admin/meta_box_booking_detail.php:21
+#: ../template/admin/meta_box_booking_general.php:77
+#: ../template/admin/meta_box_booking_general.php:78
+msgid "Type"
+msgstr ""
+
+#: ../template/admin/meta_box_booking_detail.php:22
+msgid "Type."
+msgstr ""
+
+#: ../template/admin/meta_box_booking_detail.php:28
+#: ../template/admin/meta_box_booking_general.php:36
+msgid "Price."
+msgstr ""
+
+#: ../template/admin/meta_box_booking_detail.php:34
+msgid "Duration in minutes."
+msgstr ""
+
+#: ../template/admin/meta_box_booking_detail.php:46
+msgid "name"
+msgstr ""
+
+#: ../template/admin/meta_box_booking_detail.php:59
+msgid "duration"
+msgstr ""
+
+#: ../template/admin/meta_box_booking_general.php:7
+msgid "Booking status"
+msgstr ""
+
+#: ../template/admin/meta_box_booking_general.php:9
+msgid "Select booking status."
+msgstr ""
+
+#: ../template/admin/meta_box_booking_general.php:27
+msgid "Duration."
+msgstr ""
+
+#: ../template/admin/meta_box_booking_general.php:48
+msgid "Payment type"
+msgstr ""
+
+#: ../template/admin/meta_box_booking_general.php:50
+msgid "Payment type."
+msgstr ""
+
+#: ../template/admin/meta_box_booking_general.php:61
+msgid "Transactions"
+msgstr ""
+
+#: ../template/admin/meta_box_booking_general.php:63
+msgid "List of registered transactions for this payment."
+msgstr ""
+
+#: ../template/admin/meta_box_booking_general.php:71
+msgid "Transaction ID"
+msgstr ""
+
+#: ../template/admin/meta_box_booking_general.php:72
+msgid "Transaction ID."
+msgstr ""
+
+#: ../template/admin/meta_box_booking_general.php:83
+#: ../template/admin/meta_box_booking_general.php:84
+msgid "Date"
+msgstr ""
+
+#: ../template/admin/meta_box_booking_general.php:95
+#: ../template/admin/meta_box_booking_general.php:96
+msgid "Amount"
+msgstr ""
+
+#: ../template/admin/meta_box_booking_general.php:101
+#: ../template/admin/meta_box_booking_general.php:102
+#: ../template/admin/meta_box_location_general.php:28
+msgid "Currency"
+msgstr ""
+
+#: ../template/admin/meta_box_booking_general.php:134
+msgid "Selected location."
+msgstr ""
+
+#: ../template/admin/meta_box_booking_general.php:138
+msgid "Edit this location"
+msgstr ""
+
+#: ../template/admin/meta_box_booking_general.php:144
+msgid "Selected vehicle type."
+msgstr ""
+
+#: ../template/admin/meta_box_booking_general.php:148
+msgid "Edit this vehicle"
+msgstr ""
+
+#: ../template/admin/meta_box_booking_general.php:158
+msgid "Selected package."
+msgstr ""
+
+#: ../template/admin/meta_box_booking_general.php:162
+msgid "Edit this package"
+msgstr ""
+
+#: ../template/admin/meta_box_location_address.php:6
+msgid "Name."
+msgstr ""
+
+#: ../template/admin/meta_box_location_address.php:12
+#: ../template/email/part/booking_location_address.php:13
+msgid "Street"
+msgstr ""
+
+#: ../template/admin/meta_box_location_address.php:13
+msgid "Street."
+msgstr ""
+
+#: ../template/admin/meta_box_location_address.php:19
+#: ../template/email/part/booking_location_address.php:18
+msgid "Postcode"
+msgstr ""
+
+#: ../template/admin/meta_box_location_address.php:20
+msgid "Postcode."
+msgstr ""
+
+#: ../template/admin/meta_box_location_address.php:26
+#: ../template/email/part/booking_location_address.php:23
+msgid "City"
+msgstr ""
+
+#: ../template/admin/meta_box_location_address.php:27
+msgid "City."
+msgstr ""
+
+#: ../template/admin/meta_box_location_address.php:33
+#: ../template/email/part/booking_location_address.php:28
+msgid "State"
+msgstr ""
+
+#: ../template/admin/meta_box_location_address.php:34
+msgid "State."
+msgstr ""
+
+#: ../template/admin/meta_box_location_address.php:40
+#: ../template/email/part/booking_location_address.php:33
+msgid "Country"
+msgstr ""
+
+#: ../template/admin/meta_box_location_address.php:41
+msgid "Country."
+msgstr ""
+
+#: ../template/admin/meta_box_location_address.php:54
+#: ../template/email/part/booking_location_address.php:43
+msgid "Fax number"
+msgstr ""
+
+#: ../template/admin/meta_box_location_address.php:55
+msgid "Fax number."
+msgstr ""
+
+#: ../template/admin/meta_box_location_color.php:7
+msgid "Main color scheme"
+msgstr ""
+
+#: ../template/admin/meta_box_location_color.php:8
+msgid "Secondary color scheme"
+msgstr ""
+
+#: ../template/admin/meta_box_location_color.php:9
+msgid "Heading text"
+msgstr ""
+
+#: ../template/admin/meta_box_location_color.php:10
+msgid "Body text"
+msgstr ""
+
+#: ../template/admin/meta_box_location_color.php:11
+msgid "Subtle body text"
+msgstr ""
+
+#: ../template/admin/meta_box_location_color.php:12
+msgid "Border"
+msgstr ""
+
+#: ../template/admin/meta_box_location_color.php:13
+msgid "Inactive step background"
+msgstr ""
+
+#: ../template/admin/meta_box_location_color.php:14
+msgid "Inactive step text"
+msgstr ""
+
+#: ../template/admin/meta_box_location_color.php:15
+msgid "Inactive body text"
+msgstr ""
+
+#: ../template/admin/meta_box_location_color.php:25
+msgid ""
+"Select color in HEX format for elements in this group. Leave the field blank "
+"to use the default color."
+msgstr ""
+
+#: ../template/admin/meta_box_location_color.php:26
+#, php-format
+msgid "More info about colors you can find %shere%s."
+msgstr ""
+
+#: ../template/admin/meta_box_location_datetime.php:7
+msgid "Business hours"
+msgstr ""
+
+#: ../template/admin/meta_box_location_datetime.php:8
+msgid "Specify working days / hours (in HH:MM time format)."
+msgstr ""
+
+#: ../template/admin/meta_box_location_datetime.php:14
+msgid "Weekday"
+msgstr ""
+
+#: ../template/admin/meta_box_location_datetime.php:16
+msgid "Day of the week."
+msgstr ""
+
+#: ../template/admin/meta_box_location_datetime.php:22
+msgid "Start Time"
+msgstr ""
+
+#: ../template/admin/meta_box_location_datetime.php:24
+msgid "Start time in HH:MM time format."
+msgstr ""
+
+#: ../template/admin/meta_box_location_datetime.php:30
+msgid "End Time"
+msgstr ""
+
+#: ../template/admin/meta_box_location_datetime.php:32
+msgid "End time in HH:MM time format."
+msgstr ""
+
+#: ../template/admin/meta_box_location_datetime.php:48
+msgid "Enter start time in format HH:MM."
+msgstr ""
+
+#: ../template/admin/meta_box_location_datetime.php:53
+msgid "Enter end time in format HH:MM."
+msgstr ""
+
+#: ../template/admin/meta_box_location_datetime.php:64
+msgid "Exclude dates"
+msgstr ""
+
+#: ../template/admin/meta_box_location_datetime.php:65
+msgid ""
+"Specify dates not available for booking. Past (or invalid date ranges) will "
+"be removed when saving."
+msgstr ""
+
+#: ../template/admin/meta_box_location_datetime.php:71
+msgid "Start Date"
+msgstr ""
+
+#: ../template/admin/meta_box_location_datetime.php:73
+msgid "Start date in DD-MM-YYYY format."
+msgstr ""
+
+#: ../template/admin/meta_box_location_datetime.php:79
+msgid "End Date"
+msgstr ""
+
+#: ../template/admin/meta_box_location_datetime.php:81
+msgid "End date in DD-MM-YYYY format."
+msgstr ""
+
+#: ../template/admin/meta_box_location_datetime.php:87
+#: ../template/admin/meta_box_location_datetime.php:107
+#: ../template/admin/meta_box_location_datetime.php:130
+msgid "Remove"
+msgstr ""
+
+#: ../template/admin/meta_box_location_datetime.php:89
+msgid "Remove this entry."
+msgstr ""
+
+#: ../template/admin/meta_box_location_datetime.php:97
+#: ../template/admin/meta_box_location_datetime.php:102
+#: ../template/admin/meta_box_location_datetime.php:120
+#: ../template/admin/meta_box_location_datetime.php:125
+msgid "Enter start date in format DD-MM-YYYY."
+msgstr ""
+
+#: ../template/admin/meta_box_location_datetime.php:140
+msgid "Add"
+msgstr ""
+
+#: ../template/admin/meta_box_location_datetime.php:145
+msgid "Time format"
+msgstr ""
+
+#: ../template/admin/meta_box_location_datetime.php:146
+msgid "Select the time format to be displayed in calendar."
+msgstr ""
+
+#: ../template/admin/meta_box_location_datetime.php:160
+msgid "Date format"
+msgstr ""
+
+#: ../template/admin/meta_box_location_datetime.php:167
+msgid "Booking slot size"
+msgstr ""
+
+#: ../template/admin/meta_box_location_datetime.php:168
+msgid ""
+"Value in minutes, e.g. 30 min slots will show open slots at 8:00, 8:30, 9:00 "
+"etc."
+msgstr ""
+
+#: ../template/admin/meta_box_location_datetime.php:174
+msgid "Advance booking period"
+msgstr ""
+
+#: ../template/admin/meta_box_location_datetime.php:175
+msgid "Allow booking up to this number of days in advance."
+msgstr ""
+
+#: ../template/admin/meta_box_location_email.php:5
+msgid "Sender account name"
+msgstr ""
+
+#: ../template/admin/meta_box_location_email.php:6
+msgid "Sender account name."
+msgstr ""
+
+#: ../template/admin/meta_box_location_email.php:12
+msgid "Sender account e-mail address"
+msgstr ""
+
+#: ../template/admin/meta_box_location_email.php:13
+msgid "Sender account e-mail address."
+msgstr ""
+
+#: ../template/admin/meta_box_location_email.php:19
+msgid "Sender account SMTP support"
+msgstr ""
+
+#: ../template/admin/meta_box_location_email.php:20
+msgid "Sender account SMTP support."
+msgstr ""
+
+#: ../template/admin/meta_box_location_email.php:23
+#: ../template/admin/meta_box_location_email.php:79
+#: ../template/admin/meta_box_package_detail.php:93
+#: ../template/admin/meta_box_service_detail.php:81
+msgid "Enabled"
+msgstr ""
+
+#: ../template/admin/meta_box_location_email.php:25
+#: ../template/admin/meta_box_location_email.php:81
+#: ../template/admin/meta_box_package_detail.php:95
+#: ../template/admin/meta_box_service_detail.php:83
+msgid "Disabled"
+msgstr ""
+
+#: ../template/admin/meta_box_location_email.php:29
+msgid "Sender account SMTP username"
+msgstr ""
+
+#: ../template/admin/meta_box_location_email.php:30
+msgid "Sender account SMTP username."
+msgstr ""
+
+#: ../template/admin/meta_box_location_email.php:36
+msgid "Sender account SMTP password"
+msgstr ""
+
+#: ../template/admin/meta_box_location_email.php:37
+msgid "Sender account SMTP password."
+msgstr ""
+
+#: ../template/admin/meta_box_location_email.php:43
+msgid "Sender account SMTP host"
+msgstr ""
+
+#: ../template/admin/meta_box_location_email.php:44
+msgid "Sender account SMTP host."
+msgstr ""
+
+#: ../template/admin/meta_box_location_email.php:50
+msgid "Sender account SMTP port"
+msgstr ""
+
+#: ../template/admin/meta_box_location_email.php:51
+msgid "Sender account SMTP port."
+msgstr ""
+
+#: ../template/admin/meta_box_location_email.php:57
+msgid "Sender account SMTP connection type"
+msgstr ""
+
+#: ../template/admin/meta_box_location_email.php:58
+msgid "Sender account SMTP connection type."
+msgstr ""
+
+#: ../template/admin/meta_box_location_email.php:72
+msgid "SMTP debug"
+msgstr ""
+
+#: ../template/admin/meta_box_location_email.php:74
+msgid "Enable or disable SMTP debugging."
+msgstr ""
+
+#: ../template/admin/meta_box_location_email.php:75
+msgid ""
+"You can check result of debugging in Chrome/Firebug console (after submit "
+"form)."
+msgstr ""
+
+#: ../template/admin/meta_box_location_email.php:85
+msgid "Recipient e-mail addresses"
+msgstr ""
+
+#: ../template/admin/meta_box_location_email.php:86
+msgid "Recipient e-mail addresses separated by semicolon."
+msgstr ""
+
+#: ../template/admin/meta_box_location_general.php:8
+msgid "Shortcode"
+msgstr ""
+
+#: ../template/admin/meta_box_location_general.php:9
+msgid ""
+"In order to create a new booking system for this location simply copy the "
+"shortcode snippet from below and then paste it into the WordPress page or "
+"post."
+msgstr ""
+
+#: ../template/admin/meta_box_location_general.php:13
+msgid "Displaying content"
+msgstr ""
+
+#: ../template/admin/meta_box_location_general.php:14
+msgid ""
+"Specify how services are displayed. Services, will display all services and "
+"will not display packages. Packages, will display packages and related "
+"services only. Packages and Services will display both packages and all "
+"services."
+msgstr ""
+
+#: ../template/admin/meta_box_location_general.php:29
+msgid "Select currency."
+msgstr ""
+
+#: ../template/admin/meta_box_location_general.php:45
+msgid "Number of slots"
+msgstr ""
+
+#: ../template/admin/meta_box_location_general.php:46
+msgid "The number of slots (carwash posts) in which services can be provided."
+msgstr ""
+
+#: ../template/admin/meta_box_location_general.php:52
+msgid "Number of services to display"
+msgstr ""
+
+#: ../template/admin/meta_box_location_general.php:53
+msgid ""
+"Specify how many services will be shown when the page first loads with "
+"\"Show More\" button at the bottom of the list. Enter \"0\" to display all "
+"services by default."
+msgstr ""
+
+#: ../template/admin/meta_box_location_general.php:59
+msgid "Number of time slots to display"
+msgstr ""
+
+#: ../template/admin/meta_box_location_general.php:60
+msgid ""
+"Specify how many time slots will be shown in calendar when the page first "
+"loads with \"Show More\" button at the bottom of the list. Enter \"0\" to "
+"display all time slots by default."
+msgstr ""
+
+#: ../template/admin/meta_box_location_general.php:66
+msgid "Reset form"
+msgstr ""
+
+#: ../template/admin/meta_box_location_general.php:68
+msgid "Reset (clear) form values after successful submission."
+msgstr ""
+
+#: ../template/admin/meta_box_location_general.php:72
+msgid "Yes"
+msgstr ""
+
+#: ../template/admin/meta_box_location_general.php:74
+msgid "No"
+msgstr ""
+
+#: ../template/admin/meta_box_location_general.php:78
+msgid "Summary text"
+msgstr ""
+
+#: ../template/admin/meta_box_location_general.php:79
+msgid "Summary text (displayed above \"Submit\" button)."
+msgstr ""
+
+#: ../template/admin/meta_box_location_payment.php:14
+msgid "Enable PayPal"
+msgstr ""
+
+#: ../template/admin/meta_box_location_payment.php:16
+msgid "Enable PayPal."
+msgstr ""
+
+#: ../template/admin/meta_box_location_payment.php:20
+msgid "Enable"
+msgstr ""
+
+#: ../template/admin/meta_box_location_payment.php:22
+msgid "Disable"
+msgstr ""
+
+#: ../template/admin/meta_box_location_payment.php:27
+msgid "Business e-mail address."
+msgstr ""
+
+#: ../template/admin/meta_box_package_detail.php:10
+msgid "Prices"
+msgstr ""
+
+#: ../template/admin/meta_box_package_detail.php:12
+msgid "Enter the package price depending on the location and vehicle type."
+msgstr ""
+
+#: ../template/admin/meta_box_package_detail.php:13
+msgid ""
+"Leave the price field blank or enter \"0\" to display the price calculated "
+"(which is the sum of the prices of individual services included in the "
+"package)."
+msgstr ""
+
+#: ../template/admin/meta_box_package_detail.php:22
+#: ../template/admin/meta_box_service_detail.php:20
+msgid "Location."
+msgstr ""
+
+#: ../template/admin/meta_box_package_detail.php:28
+#: ../template/admin/meta_box_service_detail.php:26
+msgid "Vehicle type."
+msgstr ""
+
+#: ../template/admin/meta_box_package_detail.php:33
+#: ../template/admin/meta_box_service_detail.php:31
+msgid "Enable/Disable"
+msgstr ""
+
+#: ../template/admin/meta_box_package_detail.php:35
+msgid "Assign package to the vehicle."
+msgstr ""
+
+#: ../template/admin/meta_box_package_detail.php:43
+msgid "Total duration in minutes."
+msgstr ""
+
+#: ../template/admin/meta_box_package_detail.php:49
+msgid "Price Calculated"
+msgstr ""
+
+#: ../template/admin/meta_box_package_detail.php:51
+msgid "The sum of the prices"
+msgstr ""
+
+#: ../template/admin/meta_box_package_detail.php:58
+msgid "New price of the package."
+msgstr ""
+
+#: ../template/admin/meta_box_package_detail.php:93
+#: ../template/admin/meta_box_package_detail.php:95
+#, php-format
+msgid "Enable this package for vehicle \"%s\" in location \"%s\"."
+msgstr ""
+
+#: ../template/admin/meta_box_package_detail.php:118
+#, php-format
+msgid "Enter package price for vehicle \"%s\" in location \"%s\"."
+msgstr ""
+
+#: ../template/admin/meta_box_package_service.php:9
+msgid "Add at least one service to the package (included services)."
+msgstr ""
+
+#: ../template/admin/meta_box_package_service.php:10
+msgid ""
+"Packages without included services are unusable and will not be displayed."
+msgstr ""
+
+#: ../template/admin/meta_box_package_service.php:11
+msgid ""
+"Related services are not included in the package but will be available for "
+"selection after selecting the package."
+msgstr ""
+
+#: ../template/admin/meta_box_package_service.php:24
+msgid "Service."
+msgstr ""
+
+#: ../template/admin/meta_box_package_service.php:29
+msgid "Service Status"
+msgstr ""
+
+#: ../template/admin/meta_box_package_service.php:30
+msgid "Assign service to the package."
+msgstr ""
+
+#: ../template/admin/meta_box_package_service.php:36
+msgid "Click on the link to get more details about the service."
+msgstr ""
+
+#: ../template/admin/meta_box_package_service.php:56
+msgid "Included"
+msgstr ""
+
+#: ../template/admin/meta_box_package_service.php:58
+msgid "Not Included"
+msgstr ""
+
+#: ../template/admin/meta_box_package_service.php:60
+msgid "Related"
+msgstr ""
+
+#: ../template/admin/meta_box_package_service.php:67
+msgid "Get more details"
+msgstr ""
+
+#: ../template/admin/meta_box_package_service.php:68
+msgid "Hide details"
+msgstr ""
+
+#: ../template/admin/meta_box_service_detail.php:9
+msgid "Service details"
+msgstr ""
+
+#: ../template/admin/meta_box_service_detail.php:11
+msgid "Enter the details depending on the location and vehicle type."
+msgstr ""
+
+#: ../template/admin/meta_box_service_detail.php:33
+msgid "Assign service to the vehicle type."
+msgstr ""
+
+#: ../template/admin/meta_box_service_detail.php:40
+msgid "Price of the service in value."
+msgstr ""
+
+#: ../template/admin/meta_box_service_detail.php:46
+msgid "Duration of the service in minutes."
+msgstr ""
+
+#: ../template/admin/meta_box_service_detail.php:81
+#, php-format
+msgid "Enable this service for vehicle \"%s\" in location \"%s\"."
+msgstr ""
+
+#: ../template/admin/meta_box_service_detail.php:83
+#, php-format
+msgid "Disable this service for vehicle \"%s\" in location \"%s\"."
+msgstr ""
+
+#: ../template/admin/meta_box_service_detail.php:89
+#, php-format
+msgid "Enter service price for vehicle \"%s\" in location \"%s\"."
+msgstr ""
+
+#: ../template/admin/meta_box_service_detail.php:94
+#, php-format
+msgid "Enter service duration for vehicle \"%s\" in location \"%s\"."
+msgstr ""
+
+#: ../template/admin/meta_box_service_general.php:7
+msgid "Base price"
+msgstr ""
+
+#: ../template/admin/meta_box_service_general.php:9
+msgid "Enter the base price of the service in value."
+msgstr ""
+
+#: ../template/admin/meta_box_service_general.php:10
+msgid ""
+"This value is used when the price for the location and vehicle type is not "
+"set."
+msgstr ""
+
+#: ../template/admin/meta_box_service_general.php:17
+msgid "Base duration"
+msgstr ""
+
+#: ../template/admin/meta_box_service_general.php:19
+msgid "Enter the base duration of the service in minutes."
+msgstr ""
+
+#: ../template/admin/meta_box_service_general.php:20
+msgid ""
+"This value is used when the duration for the location and vehicle type is "
+"not set."
+msgstr ""
+
+#: ../template/admin/meta_box_vehicle_general.php:8
+msgid "Select an icon for this type of vehicle."
+msgstr ""
+
+#: ../template/admin/meta_box_vehicle_general.php:23
+msgid "Featured image maximum height"
+msgstr ""
+
+#: ../template/admin/meta_box_vehicle_general.php:24
+msgid ""
+"Maximum height of featured image (image used instead of icon) in pixels."
+msgstr ""
+
+#: ../template/admin/option.php:13
+msgid "QuanticaLabs"
+msgstr ""
+
+#: ../template/admin/option.php:14
+msgid "Plugin Options"
+msgstr ""
+
+#: ../template/admin/option.php:26
+#, php-format
+msgid "WordPress Plugin ver. %s"
+msgstr ""
+
+#: ../template/admin/option.php:29
+msgid "Documentation"
+msgstr ""
+
+#: ../template/admin/option.php:30
+msgid "Support Forum"
+msgstr ""
+
+#: ../template/admin/option.php:31
+msgid "Plugin site"
+msgstr ""
+
+#: ../template/admin/option.php:46
+#: ../template/admin/option_import_dummy_content.php:3
+msgid "Import dummy content"
+msgstr ""
+
+#: ../template/admin/option.php:80
+msgid "Envato"
+msgstr ""
+
+#: ../template/admin/option.php:81
+msgid "Facebook"
+msgstr ""
+
+#: ../template/admin/option.php:82
+msgid "Twitter"
+msgstr ""
+
+#: ../template/admin/option.php:83
+msgid "Tumblr"
+msgstr ""
+
+#: ../template/admin/option.php:90
+msgid "Save changes"
+msgstr ""
+
+#: ../template/admin/option_import_dummy_content.php:5
+msgid "To import dummy content, click on below button."
+msgstr ""
+
+#: ../template/admin/option_import_dummy_content.php:6
+msgid ""
+"You should run this function only once (the same content will be created "
+"when you run it once again)."
+msgstr ""
+
+#: ../template/admin/option_import_dummy_content.php:7
+msgid "This operation takes a few minutes. This operation is not reversible."
+msgstr ""
+
+#: ../template/admin/option_import_dummy_content.php:9
+msgid "Import"
+msgstr ""
+
+#: ../template/email/booking_new_admin.php:4
+msgid "A new booking has been received."
+msgstr ""
+
+#: ../template/email/booking_new_admin.php:5
+#, php-format
+msgid "To view it, simply click on this link: %s."
+msgstr ""
+
+#: ../template/email/part/booking_client_address.php:18
+msgid "Vehicle make and model"
+msgstr ""
+
+#: ../template/email/part/booking_detail.php:5
+msgid "Booking details"
+msgstr ""
+
+#: ../template/email/part/booking_detail.php:28
+msgid "Selected vehicle"
+msgstr ""
+
+#: ../template/email/part/booking_detail.php:36
+msgid "Selected package"
+msgstr ""
+
+#: ../template/email/part/booking_location_address.php:76
+msgid "Location details"
+msgstr ""
+
+#: ../template/email/part/booking_service_list.php:19
+msgid " min"
+msgstr ""
+
+#: ../template/public/booking-form.php:4
+msgid "First name *"
+msgstr ""
+
+#: ../template/public/booking-form.php:8
+msgid "Second name *"
+msgstr ""
+
+#: ../template/public/booking-form.php:12
+msgid "Vehicle Make and Model *"
+msgstr ""
+
+#: ../template/public/booking-form.php:16
+msgid "Your E-mail *"
+msgstr ""
+
+#: ../template/public/booking-form.php:20
+msgid "Phone Number *"
+msgstr ""
+
+#: ../template/public/booking-form.php:37
+msgid "Confirm Booking"
+msgstr ""
+
+#: ../template/public/booking-summary.php:10
+#: ../template/public/booking-summary.php:19
+msgid "?"
+msgstr ""
+
+#: ../template/public/booking-summary.php:12
+msgid "Your Appointment Date"
+msgstr ""
+
+#: ../template/public/booking-summary.php:21
+msgid "Your Appointment Time"
+msgstr ""
+
+#: ../template/public/booking-summary.php:28
+msgid "h"
+msgstr ""
+
+#: ../template/public/booking-summary.php:31
+msgid "min"
+msgstr ""
+
+#: ../template/public/booking-summary.php:57
+msgid "Total Price"
+msgstr ""
+
+#: ../template/public/calendar.php:64 ../template/public/service-list.php:24
+#: ../template/public/service-list.php:55
+msgid "More..."
+msgstr ""
+
+#: ../template/public/calendar.php:65 ../template/public/service-list.php:25
+#: ../template/public/service-list.php:56
+msgid "Less..."
+msgstr ""
+
+#: ../template/public/calendar.php:74
+msgid "Not available."
+msgstr ""
+
+#: ../template/public/package-list.php:34
+#: ../template/public/service-list.php:36
+#, php-format
+msgid "%d min"
+msgstr ""
+
+#: ../template/public/package-list.php:48
+msgid "Book Now"
+msgstr ""
+
+#: ../template/public/public.php:30
+msgid "Vehicle type"
+msgstr ""
+
+#: ../template/public/public.php:34
+msgid "Select vehicle type below."
+msgstr ""
+
+#: ../template/public/public.php:66
+msgid "Wash packages"
+msgstr ""
+
+#: ../template/public/public.php:70
+msgid "Which wash is best for your vehicle?"
+msgstr ""
+
+#: ../template/public/public.php:104
+msgid "Services menu"
+msgstr ""
+
+#: ../template/public/public.php:105
+msgid "Add-on options"
+msgstr ""
+
+#: ../template/public/public.php:109
+msgid "A la carte services menu."
+msgstr ""
+
+#: ../template/public/public.php:110
+msgid "Add services to your package."
+msgstr ""
+
+#: ../template/public/public.php:148
+msgid "Select date and time"
+msgstr ""
+
+#: ../template/public/public.php:152
+msgid "Click on any time to make a booking."
+msgstr ""
+
+#: ../template/public/public.php:180
+msgid "Booking summary"
+msgstr ""
+
+#: ../template/public/public.php:184
+msgid "Please provide us with your contact information."
+msgstr ""
+
+#: ../template/public/service-list.php:43
+msgid "Select"
+msgstr ""
